@@ -1,0 +1,11 @@
+ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+
+ages.sort()
+print(ages)
+print("------------------------------------")
+ages.insert(3, "I'm still young! ")
+ages.insert(7, "I'm still here! ")
+ages.insert(10, "Forever young!")
+
+for x in range(len(ages)):
+    print(ages[x])
