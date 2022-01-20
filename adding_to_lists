@@ -1,0 +1,10 @@
+
+#placement test scores
+
+scores = [80, 78, 62, 76, 74, 64, 48, 57]
+
+
+new_scores = [i + 20 for i in scores]
+print(new_scores)
+
+#we need to round the curve with some extra credit!
